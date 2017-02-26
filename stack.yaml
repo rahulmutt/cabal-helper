@@ -1,0 +1,10 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+- location:
+    git: http://github.com/typelead/epm.git
+    commit: 83b22505a790bfd986d77912a5ca3388f47f0379
+  subdirs:
+    - Cabal
+resolver: lts-6.27
